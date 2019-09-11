@@ -1,9 +1,9 @@
 {
   "name": "xlsx-writestream",
-  "description": "Streaming XLSX writer. Forked from rubenv/node-xlsx-writer.",
+  "description": "Streaming XLSX writer. Forked from STRML/node-xlsx-writer.",
   "version": "0.5.1",
   "homepage": "https://github.com/STRML/node-xlsx-writestream",
-  "author": "STRML (Samuel Reed)",
+  "author": "djhunx",
   "repository": {
     "type": "git",
     "url": "git://github.com/djhunx/node-xlsx-writestream.git"
@@ -24,8 +24,7 @@
   "scripts": {
     "benchmark": "grunt benchmark",
     "test": "grunt test",
-    "prepublish": "grunt build",
-    "postinstall": "grunt build"
+    "prepublish": "grunt build"
   },
   "devDependencies": {
     "coffee-script": "~1.6.3",
